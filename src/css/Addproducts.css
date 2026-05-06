@@ -1,0 +1,45 @@
+.add-product-container{
+    margin-top: 60px;
+}
+
+.add-card{
+    background: white;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.input-style{
+    margin-bottom: 18px;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.photo-label{
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    padding: 12px;
+    background: #4a6cf7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.submit-btn:hover{
+    background: #2e4ed8;
+}
+.addproducts-bg{
+    min-height:100vh;
+    background-image:url("https://images.unsplash.com/photo-1445205170230-053b83016050");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}

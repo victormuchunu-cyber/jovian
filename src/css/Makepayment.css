@@ -1,0 +1,115 @@
+.payment-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+}
+
+/* Title */
+.payment-page h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #1b5e20;
+    text-align: center;
+}
+
+/* Back button container */
+.payment-page .col-md-1 {
+    align-self: flex-start;
+    margin-bottom: 10px;
+}
+
+/* Card styling */
+.payment-page .card {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    border: none;
+    overflow: hidden;
+    background: white;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+}
+
+.payment-page .card:hover {
+    transform: translateY(-3px);
+}
+
+/* Product image */
+.product_img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-bottom: 1px solid #eee;
+}
+
+/* Card body */
+.payment-page .card-body {
+    padding: 20px;
+}
+
+/* Product title */
+.payment-page h2 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Description */
+.payment-page p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Price */
+.payment-page h3.text-warning {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Input field */
+.payment-page input[type="number"] {
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.2s;
+}
+
+.payment-page input[type="number"]:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 6px rgba(40,167,69,0.3);
+}
+
+/* Button */
+.payment-page .btn-success {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    font-weight: bold;
+    background: #28a745;
+    border: none;
+    transition: 0.2s;
+}
+
+.payment-page .btn-success:hover {
+    background: #1e7e34;
+}
+
+/* Back button */
+.payment-page .btn-primary {
+    border-radius: 8px;
+}
+
+/* Messages */
+.payment-page .text-success {
+    font-weight: 600;
+}
+
+.payment-page .text-danger {
+    font-weight: 600;
+}
