@@ -1,5 +1,6 @@
 import axios from 'axios';
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
+import { AuthContext } from '../AuthContext';
 import { Link, useNavigate } from 'react-router-dom';
 
 const Signup = () => {
@@ -14,6 +15,7 @@ const Signup = () => {
   const [error, setError] = useState("");
 
   const navigate = useNavigate(); // 🔥 navigation hook
+  const { login } = useContext(AuthContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -36,6 +38,12 @@ const Signup = () => {
 
       setLoading("");
       setSuccess(response.data.message);
+
+      login({
+  username,
+  email,
+  phone
+});
 
       // Clear inputs
       setUsername("");

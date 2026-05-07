@@ -14,11 +14,13 @@ import Chatbox from "./components/Chatbox";
 import Women from "./components/Women";
 import Men from "./components/Men";
 import Footwear from "./components/Footwear";
+import { AuthProvider } from './AuthContext';
 
 
 
 function App() {
   return (
+    <AuthProvider>
     <Router>
        <div className="App">
       <header className="App-header">
@@ -34,6 +36,7 @@ function App() {
       <Route path="/children" element={<Children />} />
      <Route path='/women' element={<Women/>} />
      <Route path='/men' element={<Men/>} />
+
      <Route path='/footwear' element={<Footwear/>} />
      <Route path='*' element={<Notfound/>} />
       </Routes>
@@ -43,6 +46,7 @@ function App() {
 
     </div>
     </Router>
+    </AuthProvider>
   );
 }
 

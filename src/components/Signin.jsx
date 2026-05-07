@@ -1,6 +1,7 @@
 import axios from 'axios';
-import React, { useState } from 'react'
+import React, { useState, useContext} from 'react'
 import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../AuthContext';
 import '../css/Signin.css'
 
 const Signin = () => {
@@ -16,6 +17,8 @@ const Signin = () => {
 
   // Below we have the useNavigate hook to redirect us to another page on successful login/signin
   const navigate = useNavigate()
+
+  const { login } = useContext(AuthContext);
 
   // Below is the functions to handle the signin action.
   const handlesubmit = async (e) =>{
@@ -46,7 +49,8 @@ const Signin = () => {
         // setSuccess("Login successful")
 
         // Storage user details in local storage.
-        localStorage.setItem("user", JSON.stringify(response.data.user));
+        // localStorage.setItem("user", JSON.stringify(response.data.user));
+        login(response.data.user);
 
         // if it is successful, let a person get redirected to another page.
         navigate("/")
