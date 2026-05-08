@@ -7,21 +7,21 @@ const menClothes = [
     name: "Tailored Wool Coat",
     price: "2500",
     age: "Men",
-    image: "/images/tailored wool coat.jpg"
+    image: "/images/Tailored Wool Coat.jpg"
   },
   {
     id: 2,
     name: "Classic Black Suit",
     price: "4000",
     age: "Men",
-    image: "/images/Classic black suit.jpg"
+    image: "/images/Classic Black Suit.jpg"
   },
   {
     id: 3,
     name: "Minimal Street Jacket",
     price: "2200",
     age: "Men",
-    image: "/images/minimal street jacket.jpg"
+    image: "/images/Minimal Street Jacket.jpg"
   },
   {
     id: 4,
@@ -35,7 +35,7 @@ const menClothes = [
     name: "Evening Formal Blazer",
     price: "3200",
     age: "Men",
-    image: "/images/evening formal blazer.jpg"
+    image: "/images/Evening Formal Blazer.jpg"
   }
 ];
 

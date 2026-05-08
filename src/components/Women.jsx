@@ -14,21 +14,21 @@ const womenClothes = [
     name: "Tailored Classic Blazer",
     price: "2200",
     age: "Women",
-    image: "/images/tailored classic blazer.jpg"
+    image: "/images/Tailored Classic Blazer.jpg"
   },
   {
     id: 3,
     name: "Minimal Wool Coat",
     price: "3500",
     age: "Women",
-    image: "/images/minimal wool coat.jpg"
+    image: "/images/Minimal Wool Coat.jpg"
   },
   {
     id: 4,
     name: "Luxury Casual Set",
     price: "2000",
     age: "Women",
-    image: "/images/luxury casual set.jpg"
+    image: "/images/Luxury Casual Set.jpg"
   },
   {
     id: 5,
