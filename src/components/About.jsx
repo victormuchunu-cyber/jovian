@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const About = () => {
   return (
     <div style={styles.page}>
@@ -31,7 +32,10 @@ const About = () => {
       <div style={styles.footer}>
         <p style={styles.footerText}>
           © {new Date().getFullYear()} JOVIAN. All rights reserved.
-        </p>
+          
+        </p><br />
+        <p>Contact us on : +254795663485</p>
+
         <p style={styles.footerSub}>
           Crafted with precision. Designed for presence.
         </p>
@@ -43,8 +47,8 @@ const About = () => {
 
 const styles = {
   page: {
-    backgroundColor: "#0b0b0b", // deep black
-    color: "#f5f1e8", // cream
+    backgroundColor: "#eef2f8", // deep black
+    color: "#392a07", // cream
     minHeight: "100vh",
     fontFamily: "Georgia, serif",
     display: "flex",
@@ -69,7 +73,7 @@ const styles = {
   text: {
     fontSize: "18px",
     lineHeight: "1.9",
-    color: "#e8e0d0",
+    color: "#000000",
     marginBottom: "20px",
   },
 
@@ -77,7 +81,7 @@ const styles = {
     marginTop: "40px",
     letterSpacing: "4px",
     fontSize: "14px",
-    color: "#cbbfa6",
+    color: "#120e05",
   },
 
   footer: {
@@ -90,14 +94,15 @@ const styles = {
     fontSize: "13px",
     letterSpacing: "1px",
     margin: 0,
-    color: "#cbbfa6",
+    color: "#291d01",
   },
 
   footerSub: {
     fontSize: "12px",
     marginTop: "6px",
-    color: "#777",
+    color: "#1e0101",
   },
 };
+
 
 export default About;

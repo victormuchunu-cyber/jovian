@@ -18,7 +18,7 @@ const Getproducts = () => {
       product_name: "Elegant Baby Girl Dress",
       product_description: "Soft floral cotton dress perfect for birthdays and outings.",
       product_cost: 1800,
-      product_photo: "/images/elegant baby girl dress.jpg",
+      product_photo: "/images/Elegant Baby Girl Dress.jpg",
       gender: "Girls",
       age: "1-3 yrs",
     },

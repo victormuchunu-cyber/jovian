@@ -1,5 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 const Mycarousel = () => {
@@ -18,7 +19,7 @@ const Mycarousel = () => {
 
         {/* Image 1 */}
         <div className="carousel-item active">
-          <img src="/images/Streatwear1.jpg" className="d-block w-100  carousel-img" alt="Streetwear" width="50px" height="1000px"/>
+          <img src="/images/Streatwear1.jpg" className="d-block w-100 carousel-img " alt="Streetwear"/>
           <div className="carousel-caption d-none d-md-block">
             <h5>Bold Street Style</h5>
             <p>Jovian Wear – Designed for confidence.</p>
@@ -27,7 +28,7 @@ const Mycarousel = () => {
 
         {/* Image 2 */}
         <div className="carousel-item">
-          <img src="/images/luxury1.jpg" className="d-block w-100 carousel-img" alt="Luxury Fashion"  width="50px" height="1000px"/>
+          <img src="/images/luxury1.jpg" className="d-block w-100 carousel-img" alt="Luxury Fashion" />
           <div className="carousel-caption d-none d-md-block">
             <h5>Luxury Everyday Wear</h5>
             <p>Premium quality fabrics and timeless style.</p>
@@ -36,7 +37,7 @@ const Mycarousel = () => {
 
         {/* Image 3 */}
         <div className="carousel-item">
-          <img src="/images/chic1.jpg" className="d-block w-100 carousel-img" alt="Minimal Fashion" width="50px" height="1000px" />
+          <img src="/images/chic1.jpg" className="d-block w-100 carousel-img" alt="Minimal Fashion"  />
           <div className="carousel-caption d-none d-md-block">
             <h5>Minimal. Clean. Powerful.</h5>
             <p>Fashion that speaks without shouting.</p>
